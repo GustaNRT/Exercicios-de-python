@@ -1,9 +1,14 @@
-#1 (32 °F − 32) × 5/9 = 0 °C
+nome= (input('Escreva o nome do Aluno:'))
+n1= float(input('Primeira nota do aluno:'))
+n2= float(input('Segunda nota do aluno:'))
+média = (n1 + n2) / 2
 
-f = float(input('Digite o Valor em fairheint'))
-c = (f - 32) * 5/9
-print(c)
+print ('A média de {} foi {}'.format(nome,média))
 
+if média >= 7:
+    print(f'o aluno foi aprovado')
+if média < 7 :
+    print(f'o aluno foi reprovado')
 
 
 
