@@ -1,24 +1,12 @@
-menor_q_160 = entre_160_e_180 = maior_q_180 = 0
-
-for cont in range(10):
-    altura = float(input('Digite sua altura: '))
-
-    if altura < 1.60:
-        menor_q_160 =+ 1
-
-    elif 1.60 < altura < 1.80:
-        entre_160_e_180 =+ 1
-
-    elif altura > 1.80:
-        maior_q_180 =+ 1
-
-print("--------------------------------------------")
-print("Menores que 1.60m:",menor_q_160)
-print("Entre 1.60me 1.80m:",entre_160_e_180)
-print("Maiores que 1.80m:",maior_q_180)
-print("--------------------------------------------")
-
-
+#4 Faça um programa que leia dois números e mostre qual o maior dos dois. O programa deve informar caso sejam iguais.
+n1 = float(input('Digite o primeiro número: '))
+n2 = float(input('Digite o segundo número: '))
+if n1 > n2:
+    print(f'O número {n1} é maior que {n2}')
+if n2 > n1:
+    print(f'O número {n2} é maior que {n1}')
+else:
+    print(f'Os números {n1} {n2} são iguais')
 
 
 
